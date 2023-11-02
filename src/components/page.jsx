@@ -53,7 +53,7 @@ export default function Page() {
         autoRotate();
       }
     
-      setImageRotation(-rotateValue); // Gambar di bawah akan berlawanan arah rotasi
+      setImageRotation(-rotateValue); 
     }, [rotation, autoRotating, rotateValue]);
     
 
@@ -115,11 +115,9 @@ export default function Page() {
         style={{
           position: "absolute",
           overflow: "hidden",
-          // borderBottomRightRadius: "605rem" ,
           backgroundColor: "#FFEEDE",
           right: "-223px",
           top: "-200px",
-          // left: "223px"
         }}
       >
         <Image
