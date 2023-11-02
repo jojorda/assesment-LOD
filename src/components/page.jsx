@@ -111,7 +111,7 @@ export default function Page() {
 
       </div>
       <section
-        className="absolute overflow-hidden rounded-bl-full rounded-br-full mx-auto right-0 top-0 h-[20rem] w-full lg:mr-auto md:h-[32rem] lg:h-[44rem] lg:w-[95rem]"
+        className="rounded-bl-full rounded-br-full mx-auto h-[20rem] w-full lg:mr-auto md:h-[32rem] lg:h-[44rem] lg:w-[95rem]"
         style={{
           position: "absolute",
           overflow: "hidden",
